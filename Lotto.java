@@ -38,7 +38,7 @@ public class Lotto {
                // do zmiennych tablicowych tablicy lotto za pomocą pętli for
                for(int i = 0; i<6; i++)
                {
-                   lotto[i] = random.nextInt(50);
+                   lotto[i] = random.nextInt(49) + 1;
                }
                
                // Wyświetlenie poszczególnych elementów tablicy - wyniku losowania
@@ -59,7 +59,7 @@ public class Lotto {
                // do zmiennych tablicowych tablicy miniLotto za pomocą pętli for
                for(int i = 0; i<5; i++)
                {
-                   miniLotto[i] = random.nextInt(43);
+                   miniLotto[i] = random.nextInt(42) + 1;
                }
                // Wyświetlenie poszczególnych elementów tablicy - wyniku losowania
                int x = 0;
